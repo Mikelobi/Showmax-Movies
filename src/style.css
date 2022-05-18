@@ -83,8 +83,9 @@ nav li {
 }
 
 nav li a {
+  text-transform: capitalize;
   text-decoration: none;
-  color: black;
+  color: rgb(214, 243, 247);
   border: none;
   transition: ease 0.6s;
 }
