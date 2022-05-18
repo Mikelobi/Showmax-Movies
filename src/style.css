@@ -1,0 +1,95 @@
+/* Global Styles */
+:root {
+  --primary-green: #6ac045;
+  --background-grey: #1d1d1d;
+  --text-grey: #919191;
+  --header-font: 'Poppins', sans-serif;
+  --body-font: 'Raleway', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--body-font);
+  background-image: url(./assets/bodyBG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Header Styles */
+
+.mainwrapper {
+  border: rgba(222, 184, 135, 0.671) 5px solid;
+  box-shadow: 0 0 20px 10px burlywood;
+  width: 70%;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: rgba(149, 155, 158, 0.842);
+}
+
+.mainwrapper header {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: rgb(42, 58, 110);
+  gap: 20rem;
+}
+
+.logo img {
+  height: 4rem;
+  transition: 1s;
+}
+
+.logo img:hover {
+  height: 3.5rem;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  height: 20px;
+  align-items: center;
+  margin: auto 0;
+  gap: 5rem;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+  border: none;
+  transition: ease 0.6s;
+}
+
+nav li a:hover {
+  color: rgb(236, 79, 52);
+  font-size: 20px;
+}
