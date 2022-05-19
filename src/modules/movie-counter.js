@@ -1,3 +1,3 @@
 export default function countMovies(sampleMovies) {
-    return sampleMovies.length;
-  }
+  return sampleMovies.length;
+}
