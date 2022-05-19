@@ -1,3 +1,5 @@
+import { getLikes, postLike, updateLikes } from './likes-handler.js';
+
 const movieContainer = document.querySelector('.movies');
 const displayMovies = (sampleMovies) => {
   sampleMovies.forEach((movie) => {
@@ -72,4 +74,5 @@ const displayMovies = (sampleMovies) => {
     popLikes();
   });
 };
+
 export default displayMovies;
