@@ -42,7 +42,8 @@
 
 - GitHub: [Harold](https://github.com/haroldmud)
 - Twitter: [Harold](https://twitter.com/MudosaHarold)
-- LinkedIn: [Harold](https://linkedin.com/in/ugochukwu-omulu-b9697663)
+- LinkedIn: [Harold](https://linkedin.com/in/haroldmudosa
+)
 
 ## 🤝 Contributing
 
