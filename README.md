@@ -2,7 +2,7 @@
 
 ## Preview
 <p align="center">Home page</p>
-<img src="./src/assets/Capture.png">
+<img src="./src/assets/Capture.PNG">
 
 <h1 align="center"> ShowMax Movies </h1>
 
