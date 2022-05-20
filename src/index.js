@@ -13,7 +13,7 @@ window.addEventListener('load', async () => {
   logoImgDiv.appendChild(logoIcon);
 
   const movies = await getMovies();
-  const sampleMovies = movies.slice(12, 60);
+  const sampleMovies = movies.slice(6, 70);
   await displayMovies(sampleMovies);
 
   const movieList = document.querySelector('.movie-list');
