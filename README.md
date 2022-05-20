@@ -35,7 +35,7 @@
 👤 **Michael Ugochukwu**
 
 - GitHub: [Mikelobi](https://github.com/Mikelobi) 
-- Twitter: [Mikelobi](https://twitter.com/omulum)rold
+- Twitter: [Mikelobi](https://twitter.com/omulum)
 - LinkedIn: [Mikelobi](https://linkedin.com/in/ugochukwu-omulu-b9697663)
 
 👤 **Harold Mudosa**
