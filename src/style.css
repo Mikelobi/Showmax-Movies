@@ -1,4 +1,17 @@
 /* Global Styles */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.062);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2b2b2b94;
+  border-radius: 5px;
+}
+
 :root {
   --primary-green: hwb(113 41% 7% / 0.767);
   --background-grey: #1d1d1d;
@@ -50,8 +63,8 @@ a {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 0;
+  margin-bottom: 0;
   background-color: rgba(149, 155, 158, 0.842);
 }
 
@@ -136,10 +149,10 @@ h2 {
 }
 
 .movie-section-title {
-  background-color: rgb(66, 55, 55);
+  background-color: rgba(66, 55, 55, 0.76);
   text-align: center;
   color: #fff;
-  padding:1em 1.2em 0;
+  padding: 1em 1.2em 0;
   margin-bottom: 1rem;
   height: 11rem;
 }
@@ -195,19 +208,6 @@ span.showhead {
   padding-bottom: 1.5em;
 }
 
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track  {
-  background-color: rgba(255, 255, 255, 0.062);
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #2b2b2b94;
-  border-radius: 5px;
-}
-
 /* Movie Wrapper overlay styles */
 .movie-image-div {
   position: relative;
@@ -233,11 +233,12 @@ span.showhead {
   justify-content: center;
   opacity: 0;
   transition: opacity 0.35s;
+  transform: translate3d(0,0,0);
 }
 
 .details-overlay > * {
-  transform: translateY(20px);
-  transition: transform 0.35s;
+  transform: translateY(50px);
+  transition: transform 2s;
 }
 
 .details-overlay:hover {
@@ -697,7 +698,7 @@ footer {
   justify-content: center;
   height: 5em;
   margin-top: 20px;
-  background: #000;
+  background: rgba(0, 0, 0, 0.466);
 }
 
 footer p {
@@ -716,7 +717,6 @@ footer p {
 
 /* Mobile Styles */
 @media screen and (max-width: 800px) {
-
   .topHead {
     width: auto;
   }
@@ -797,5 +797,5 @@ footer p {
     width: auto;
     display: flex;
     justify-content: center;
-}
+  }
 }
