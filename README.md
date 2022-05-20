@@ -1,62 +1,55 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+## Preview
+<p align="center">Home page</p>
+<img src="./src/assets/Capture.PNG">
+<img src="./src/assets/Capturepop.PNG">
 
-> Description the project.
+<h1 align="center"> ShowMax Movies </h1>
+
+> Here you can access the list of lovely movies, like your favourite movie and leave your comments for your movie in the comment section.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- **HTML** and **CSS** and **Javascript**
 
-## Live Demo (if available)
+## DEMO
 
-[Live Demo Link](https://livedemo.com)
+[See Live Link](https://mikelobi.github.io/Showmax-Movies/dist)
 
+## Video Description
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
+- [Project Presentation](https://www.loom.com/share/3ca40a5bbef1436abcd76b76cd62ddc1)
 
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+- Simply fork this project
+- run `npm install `to install all dependencies
+- run `npm run build` to bundle the project with webpack, and
+- run `npm start` to launch the application
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Michael Ugochukwu**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Mikelobi](https://github.com/Mikelobi) 
+- Twitter: [Mikelobi](https://twitter.com/omulum)rold
+- LinkedIn: [Mikelobi](https://linkedin.com/in/ugochukwu-omulu-b9697663)
 
-👤 **Author2**
+👤 **Harold Mudosa**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Harold](https://github.com/haroldmud)
+- Twitter: [Harold](https://twitter.com/MudosaHarold)
+- LinkedIn: [Harold](https://linkedin.com/in/haroldmudosa
+)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Mikelobi/Show-Movies/issues).
 
 ## Show your support
 
@@ -64,10 +57,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+My appreciation to all who contributed to this wonderful project. A special thanks to `Tvmaze.com` and `Involvement API` for rendering public API consumption. 
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
