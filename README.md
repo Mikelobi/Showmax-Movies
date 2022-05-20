@@ -3,6 +3,7 @@
 ## Preview
 <p align="center">Home page</p>
 <img src="./src/assets/Capture.PNG">
+<img src="./src/assets/Capturepop.PNG">
 
 <h1 align="center"> ShowMax Movies </h1>
 
@@ -27,6 +28,7 @@
 - run `npm install `to install all dependencies
 - run `npm run build` to bundle the project with webpack, and
 - run `npm start` to launch the application
+
 
 ## Authors
 
