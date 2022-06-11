@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/Mikelobi/Showmax-Movies/issues"
   },
-  "homepage": "https://github.com/Mikelobi/Showmax-Movies#readme",
+  "homepage": "https://github.com/Mikelobi/Showmax-Movies",
   "devDependencies": {
     "@babel/plugin-syntax-top-level-await": "^7.14.5",
     "@babel/plugin-transform-modules-commonjs": "^7.17.9",
@@ -42,5 +42,7 @@
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.8.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
