@@ -16,7 +16,7 @@
 
 ## DEMO
 
-[See Live Link](https://mikelobi.github.io/Showmax-Movies/dist/)
+[See Live Link](https://mikelobi.github.io/Showmax-Movies/)
 
 ## Video Description
 
